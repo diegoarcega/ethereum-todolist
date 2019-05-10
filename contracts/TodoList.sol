@@ -3,6 +3,7 @@ pragma solidity ^0.5.0;
 contract TodoList {
   constructor () public {
     createTask("first thing I need to do");
+    createTask("second thing I need to do");
   }
 
   uint public taskCount = 0;
